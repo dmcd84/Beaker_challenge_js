@@ -3,11 +3,15 @@
 describe('Beaker', function() {
   var beaker;
 
-  beforeEach( function() {
-    beaker = new Beaker();
+  beforeEach(function() {
+    beaker = new Beaker(5);
   });
 
   it('starts being empty', function(){
     expect(beaker.currentVolume).toEqual(0);
+  });
+
+  it('takes a capcity on initiation', function(){
+    expect(beaker.capacity).toEqual(5);
   });
 });
