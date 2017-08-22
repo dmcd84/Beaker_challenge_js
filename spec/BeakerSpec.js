@@ -19,4 +19,10 @@ describe('Beaker', function() {
     beaker.fillBeaker();
     expect(beaker.currentVolume).toEqual(5);
   })
+
+  it('can be emptied', function(){
+    beaker.fillBeaker();
+    beaker.emptyBeaker();
+    expect(beaker.currentVolume).toEqual(0);
+  })
 });

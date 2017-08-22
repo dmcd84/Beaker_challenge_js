@@ -6,3 +6,7 @@ function Beaker(capacity) {
 Beaker.prototype.fillBeaker = function(){
   this.currentVolume = this.capacity
 }
+
+Beaker.prototype.emptyBeaker = function(){
+  this.currentVolume = 0;
+}
