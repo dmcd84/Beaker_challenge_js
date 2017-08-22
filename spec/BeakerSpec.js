@@ -11,7 +11,12 @@ describe('Beaker', function() {
     expect(beaker.currentVolume).toEqual(0);
   });
 
-  it('takes a capcity on initiation', function(){
+  it('takes a capacity on initiation', function(){
     expect(beaker.capacity).toEqual(5);
   });
+
+  it('can be filled', function(){
+    beaker.fillBeaker();
+    expect(beaker.currentVolume).toEqual(5);
+  })
 });

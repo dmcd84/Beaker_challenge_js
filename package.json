@@ -1,0 +1,20 @@
+{
+  "name": "beaker_challenge_js",
+  "version": "1.0.0",
+  "description": "Measure the correct amount of water into the larger of the two beakers in the time limit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcd84/Beaker_challenge_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcd84/Beaker_challenge_js/issues"
+  },
+  "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme"
+}
