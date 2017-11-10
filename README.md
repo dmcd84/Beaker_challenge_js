@@ -1,4 +1,6 @@
 # Beaker_challenge_js
+[![Build Status](https://travis-ci.org/dmcd84/Beaker_challenge_js.svg?branch=master)](https://travis-ci.org/dmcd84/Beaker_challenge_js)
+
 ```
 .-.  .-.  .--.  _______ ,---.  ,---.      ,---.  .-. .-. _____  _____  ,-.    ,---.   
 | |/\| | / /\ \|__   __|| .-'  | .-.\     | .-.\ | | | |/___  //___  / | |    | .-'   
