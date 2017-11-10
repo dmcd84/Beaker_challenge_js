@@ -15,10 +15,6 @@ Puzzle.prototype.pour = function(from, into){
   }
 }
 
-Puzzle.prototype.matchTargetCheck= function(beaker){
-  if (beaker.currentVolume == this.target) {
-    return true;
-  } else {
-    return false;
-  };
+Puzzle.prototype.matchTargetCheck = function(beaker){
+  return beaker.currentVolume == this.target ? true : false;
 }
