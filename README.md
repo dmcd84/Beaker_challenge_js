@@ -1,5 +1,15 @@
 # Beaker_challenge_js
 
+ ,---.   ,---.  .-. .-.  ,--,  ,---.'    .---.   .-.  .-.  .--.  _______ ,---.  ,---.      ,---.  .-. .-. _____  _____  ,-.    ,---.   
+ | .-.\  | .-.\ | | | |.' .')  | .-'    ( .-._)  | |/\| | / /\ \|__   __|| .-'  | .-.\     | .-.\ | | | |/___  //___  / | |    | .-'   
+ | |-' \ | `-'/ | | | ||  |(_) | `-.   (_) \     | /  \ |/ /__\ \ )| |   | `-.  | `-'/     | |-' )| | | |   / /)   / /) | |    | `-.   
+ | |--. \|   (  | | | |\  \    | .-'   _  \ \    |  /\  ||  __  |(_) |   | .-'  |   (      | |--' | | | |  / /(_) / /(_)| |    | .-'   
+ | |`-' /| |\ \ | `-')| \  `-. |  `--.( `-'  )   |(/  \ || |  |)|  | |   |  `--.| |\ \     | |    | `-')| / /___ / /___ | `--. |  `--.
+ /( `--' |_| \)\`---(_)  \____\/( __.' `----'    (_)   \||_|  (_)  `-'   /( __.'|_| \)\    /(     `---(_)(_____/(_____/ |( __.'/( __.'
+(__)         (__)             (__)                                      (__)        (__)  (__)                          (_)   (__)     
+
+*Ascii art from http://patorjk.com/ - inspired by Jenny Wem*
+
 # The Challenge
 
 In the movie Die Hard 3, Bruce Willis is given this task: he has to figure out how to get exactly 4 litres of water in a beaker. He has a tap with running water, a 3 litre beaker and a 5 litre beaker. There is no shortage of water in the tap, but time is limited, so he needs to get to the answer in the minimum number of steps.
