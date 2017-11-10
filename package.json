@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dmcd84/Beaker_challenge_js/issues"
   },
-  "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme"
+  "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
 }
