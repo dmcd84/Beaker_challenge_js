@@ -14,3 +14,11 @@ Puzzle.prototype.pour = function(from, into){
     from.emptyBeaker();
   }
 }
+
+Puzzle.prototype.matchTargetCheck= function(beaker){
+  if (beaker.currentVolume == this.target) {
+    return true;
+  } else {
+    return false;
+  };
+}
