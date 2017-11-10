@@ -9,7 +9,6 @@ Can you create an interactive application which simulates this problem and allow
 The solution should let the user know if he or she has reached the right answer, and have a timer counting down from 5 minutes to zero, at which point the game will stop.
 
 # ToDos
-- add express to allow localhost to server game
 - add interface for game
 - add timer
 - add move counter
