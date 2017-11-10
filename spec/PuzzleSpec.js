@@ -31,11 +31,22 @@ describe('Puzzle', function() {
     expect(puzzle.beaker1.currentVolume).toEqual(3);
   })
 
-  it('can check volume of beakers against target', function(){
+  it('can check volume of each beaker against target and return false', function(){
     puzzle.beaker1.fillBeaker();
     puzzle.pour(puzzle.beaker1, puzzle.beaker2)
     puzzle.pour(puzzle.beaker2, puzzle.beaker1)
     expect(puzzle.matchTargetCheck(puzzle.beaker1)).toEqual(false);
     expect(puzzle.matchTargetCheck(puzzle.beaker2)).toEqual(false);
+  })
+
+  it('can check volume of each beacker against target and return true', function(){
+    puzzle.beaker2.fillBeaker();
+    puzzle.pour(puzzle.beaker2, puzzle.beaker1);
+    puzzle.beaker1.emptyBeaker();
+    puzzle.pour(puzzle.beaker2, puzzle.beaker1);
+    puzzle.beaker2.fillBeaker();
+    puzzle.pour(puzzle.beaker2, puzzle.beaker1);
+    expect(puzzle.matchTargetCheck(puzzle.beaker1)).toEqual(false);
+    expect(puzzle.matchTargetCheck(puzzle.beaker2)).toEqual(true);
   })
 });
