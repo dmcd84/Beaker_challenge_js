@@ -13,8 +13,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Required Scripts -->
   <script type="text/javascript" src="/js/interface.js"></script>
-  <script type="text/javascript" src="/src/Beaker.js"></script>
-  <script type="text/javascript" src="/src/Puzzle.js"></script>
+  <script type="text/javascript" src="/js/Beaker.js"></script>
+  <script type="text/javascript" src="/js/Puzzle.js"></script>
   <!-- Custon Styles -->
   <link rel="stylesheet" href="css/stylesheet.css" type "text/css">
 
@@ -28,7 +28,10 @@
       time is limited, so he needs to get to the answer in the minimum number of steps.</p>
   </div>
   <div class="row">
-    <div class="col-sm-8">.col-sm-8</div>
+    <div class="col-sm-8">
+      <div id='beaker1capacity'></div>
+      <div id='beaker2capacity'></div>
+    </div>
     <div class="col-sm-4">
       <div class="form-group row">
         <div class="col-xs-4">
@@ -44,19 +47,19 @@
           <input class="form-control" id="target-input" type="text">
         </div>
       </div>
-      <button type="button" class="btn btn-success btn-block">Start Game</button>
+      <button type="button" class="btn btn-success btn-block" id='start-game'>Start Game</button>
       <div class="game-buttons">
         <h4>Beaker 1</h4>
         <div class="btn-group btn-group-justified">
-          <a type="button" class="btn btn-primary">Fill</a>
-          <a type="button" class="btn btn-primary">Pour</a>
-          <a type="button" class="btn btn-primary">Empty</a>
+          <a type="button" class="btn btn-primary" id='fill-1'>Fill</a>
+          <a type="button" class="btn btn-primary" id='pour-into-2'>Pour</a>
+          <a type="button" class="btn btn-primary" id='empty-1'>Empty</a>
         </div>
         <h4>Beaker 2</h4>
         <div class="btn-group btn-group-justified">
-          <a type="button" class="btn btn-primary">Fill</a>
-          <a type="button" class="btn btn-primary">Pour</a>
-          <a type="button" class="btn btn-primary">Empty</a>
+          <a type="button" class="btn btn-primary" id='fill-2'>Fill</a>
+          <a type="button" class="btn btn-primary" id='pour-into-1'>Pour</a>
+          <a type="button" class="btn btn-primary" id='empty-2'>Empty</a>
         </div>
       </div>
     </div>
