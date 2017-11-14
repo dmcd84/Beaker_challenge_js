@@ -7,7 +7,15 @@ $(document).ready(function() {
       console.log('in update fn');
       $("#beaker1volume").text("Beaker 1 Current Volume:" + " " + puzzle.beaker1.currentVolume);
       $("#beaker2volume").text("Beaker 2 Current Volume:" + " " + puzzle.beaker2.currentVolume);
+      var win = $.fn.winState();
+      $("body").css("background", (win == true) ? "lightgreen" : "yellow");
     };
+
+    $.fn.winState = function() {
+      if (puzzle.matchTargetCheck(puzzle.beaker1) == true || puzzle.matchTargetCheck(puzzle.beaker2) == true)
+      return true;
+    }
+
 
     $("#fill-1").on('click', function() {
       console.log("Filling beaker 1");
