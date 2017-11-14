@@ -1,3 +1,12 @@
 .game-buttons h4{
   text-align: center;
 }
+
+.col-xs-4 label{
+  text-align: center;
+}
+
+.logo {
+  height: 180px;
+  width: 180px;
+}
