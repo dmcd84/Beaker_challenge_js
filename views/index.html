@@ -28,56 +28,70 @@
       time is limited, so he needs to get to the answer in the minimum number of steps.</p>
   </div>
   <div class="row">
-    <div class="col-sm-8">
-      <div class="col-sm-3">
-        <div>
-          <img class="logo" src="/assets/water.png">
-        </div>
-        <div id='beaker1capacity'>Beaker 1 Current Volume:</div>
-      </div>
-      <div class="col-xs-4">
-
-      </div>
-      <div class="col-sm-3">
-        <div>
-          <img class="logo" src="/assets/water.png">
-        </div>
-        <div id='beaker2capacity'>Beaker 2 Current Volume:</div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="form-group row">
-        <div class="col-xs-4">
-          <label for="beaker1input">Beaker 1 Capacity:</label>
-          <input class="form-control" id="beaker1input" type="text">
-        </div>
-        <div class="col-xs-4">
-          <label for="beaker2input">Beaker 2 Capacity:</label>
-          <input class="form-control" id="beaker2input" type="text">
-        </div>
-        <div class="col-xs-4">
-          <label for="target-input">Target Volume:</label>
-          <input class="form-control" id="target-input" type="text">
-        </div>
-      </div>
-      <button type="button" class="btn btn-success btn-block" id='start-game'>Start Game</button>
-      <div class="game-buttons">
-        <h4>Beaker 1</h4>
-        <div class="btn-group btn-group-justified">
-          <a type="button" class="btn btn-primary" id='fill-1'>Fill</a>
-          <a type="button" class="btn btn-primary" id='pour-into-2'>Pour</a>
-          <a type="button" class="btn btn-primary" id='empty-1'>Empty</a>
-        </div>
-        <h4>Beaker 2</h4>
-        <div class="btn-group btn-group-justified">
-          <a type="button" class="btn btn-primary" id='fill-2'>Fill</a>
-          <a type="button" class="btn btn-primary" id='pour-into-1'>Pour</a>
-          <a type="button" class="btn btn-primary" id='empty-2'>Empty</a>
-        </div>
-      </div>
+    <div class="col-xs-12">
+      <br>
+      <br>
     </div>
   </div>
-  <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  <div class="row">
+    <div class="col-sm-12">
+
+      <div class="col-sm-4">
+        <div>
+          <img class="logo" src="/assets/water.png">
+        </div>
+        <br>
+        <div id='beaker1capacity' class='beaker-vol-label'>Beaker 1 Current Volume:</div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="form-group row">
+          <div class="col-xs-4">
+            <label for="beaker1input">Beaker 1 Capacity:</label>
+            <input class="form-control" id="beaker1input" type="text">
+          </div>
+          <div class="col-xs-4">
+            <label for="beaker2input">Beaker 2 Capacity:</label>
+            <input class="form-control" id="beaker2input" type="text">
+          </div>
+          <div class="col-xs-4">
+            <label for="target-input">Volume to achieve:</label>
+            <input class="form-control" id="target-input" type="text">
+          </div>
+        </div>
+        <button type="button" class="btn btn-success btn-block" id='start-game'>Start Game</button>
+        <div class="game-buttons">
+          <h4>Beaker 1</h4>
+          <div class="btn-group btn-group-justified">
+            <a type="button" class="btn btn-primary" id='fill-1'>Fill</a>
+            <a type="button" class="btn btn-primary" id='pour-into-2'>Pour</a>
+            <a type="button" class="btn btn-primary" id='empty-1'>Empty</a>
+          </div>
+          <h4>Beaker 2</h4>
+          <div class="btn-group btn-group-justified">
+            <a type="button" class="btn btn-primary" id='fill-2'>Fill</a>
+            <a type="button" class="btn btn-primary" id='pour-into-1'>Pour</a>
+            <a type="button" class="btn btn-primary" id='empty-2'>Empty</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div>
+          <img class="logo" src="/assets/water.png">
+        </div>
+        <br>
+        <div id='beaker2capacity' class='beaker-vol-label'>Beaker 2 Current Volume:</div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <br>
+  <div class="acknowledgements">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+      target="_blank">CC 3.0 BY</a></div>
 </body>
 
 </html>

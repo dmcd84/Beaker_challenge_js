@@ -9,4 +9,18 @@
 .logo {
   height: 180px;
   width: 180px;
+  display: block;
+  margin: auto;
+}
+
+.beaker-info {
+  text-align: justify;
+}
+
+.acknowledgements {
+  text-align: center;
+}
+
+.beaker-vol-label {
+  text-align: center;
 }
