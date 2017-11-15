@@ -24,7 +24,20 @@
 .beaker-vol-label {
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-variant: small-caps;
   font-weight: 700;
+}
+
+p {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 36px;
+  text-align: center;
 }

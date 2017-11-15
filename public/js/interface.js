@@ -4,7 +4,6 @@ $(document).ready(function() {
     let puzzle = new Puzzle($("#beaker1input").val(), $("#beaker2input").val(), $("#target-input").val());
 
     $.fn.updateBeakerVolume = function() {
-      console.log('in update fn');
       $("#beaker1volume").text("Beaker 1 Current Volume:" + " " + puzzle.beaker1.currentVolume);
       $("#beaker2volume").text("Beaker 2 Current Volume:" + " " + puzzle.beaker2.currentVolume);
       $.fn.winState();
@@ -13,8 +12,7 @@ $(document).ready(function() {
     $.fn.winState = function() {
       var win = (puzzle.matchTargetCheck(puzzle.beaker1) == true || puzzle.matchTargetCheck(puzzle.beaker2) == true) ? true : false;
       $("body").css("background", (win == true) ? "lightgreen" : "yellow");
-    }
-
+    };
 
     $("#fill-1").on('click', function() {
       console.log("Filling beaker 1");
