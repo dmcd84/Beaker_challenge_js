@@ -20,6 +20,9 @@
     "url": "https://github.com/dmcd84/Beaker_challenge_js/issues"
   },
   "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme",
+  "dependencies":{
+    "express": "*"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
