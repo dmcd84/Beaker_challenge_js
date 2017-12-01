@@ -24,6 +24,5 @@ The solution should let the user know if he or she has reached the right answer,
 # ToDos
 - add timer
 - add move counter
-- deploy to web
 - add leaderboard
 - add styling (forever ongoing!)
