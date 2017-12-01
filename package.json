@@ -20,7 +20,8 @@
     "url": "https://github.com/dmcd84/Beaker_challenge_js/issues"
   },
   "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme",
-  "dependencies":{
+  "dependencies": {
+    "bootstrap": "^3.3.7",
     "express": "*"
   },
   "devDependencies": {
