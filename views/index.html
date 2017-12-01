@@ -14,6 +14,7 @@
   <!-- Required Scripts -->
   <script type="text/javascript" src="/js/interface.js"></script>
   <script type="text/javascript" src="/js/Beaker.js"></script>
+  <!-- <script type="text/javascript" src="/js/Countdown.js"></script> -->
   <script type="text/javascript" src="/js/Puzzle.js"></script>
   <!-- Custon Styles -->
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
@@ -34,6 +35,10 @@
     <div class="col-xs-12">
       <br>
       <br>
+      <div id="timer">
+        <div class="newdiv" id="minutes"></div>
+        <div class="newdiv" id="seconds"></div>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -96,6 +101,17 @@
   </div>
   <div class="acknowledgements">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
       target="_blank">CC 3.0 BY</a></div>
+
+  <div id=winner class=winner style="text-align:center;">
+    <br>
+    <h5 class="beaker-vol-label">Congratulations!</h5>
+    <br>
+    <img class=logoplus src="assets/medal.png" alt="winner">
+    <br>
+    <p class="container-fluid">Refresh the page to play again.</p>
+    <br>
+    <p class="container-fluid">Challenge yourself and try a different combination of bucket size!!</p>
+  </div>
 </body>
 
 </html>

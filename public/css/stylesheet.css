@@ -13,6 +13,12 @@
   margin: auto;
 }
 
+.logoplus {
+  height: 256px;
+  width: 256px;
+  display: block;
+  margin: auto;
+}
 .beaker-info {
   text-align: justify;
 }
@@ -40,4 +46,44 @@ h1 {
   font-family: 'Audiowide', cursive;
   font-size: 36px;
   text-align: center;
+}
+
+.newdiv {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: black;
+}
+
+#minutes {
+  font-size: 50px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+.winner {
+  display: none;
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+  width: 50%;
+  height: 75%;
+  background-color: Fuchsia;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  z-index: 3;
+}
+
+.winner.open {
+  display: block;
 }

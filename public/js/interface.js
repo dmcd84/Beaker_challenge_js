@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("#start-game").on('click', function() {
     console.log("New Game started");
     let puzzle = new Puzzle($("#beaker1input").val(), $("#beaker2input").val(), $("#target-input").val());
+    // let clock = new countdownClock();
 
     $.fn.updateBeakerVolume = function() {
       $("#beaker1volume").text("Beaker 1 Current Volume:" + " " + puzzle.beaker1.currentVolume);
@@ -12,6 +13,11 @@ $(document).ready(function() {
     $.fn.winState = function() {
       var win = (puzzle.matchTargetCheck(puzzle.beaker1) == true || puzzle.matchTargetCheck(puzzle.beaker2) == true) ? true : false;
       $("body").css("background", (win == true) ? "lightgreen" : "yellow");
+      if (win == true){
+        $('#winner').toggle();
+        $(this).addClass('open');
+        return false;
+      }
     };
 
     $("#fill-1").on('click', function() {
@@ -49,5 +55,11 @@ $(document).ready(function() {
       puzzle.pour(puzzle.beaker1, puzzle.beaker2);
       $.fn.updateBeakerVolume();
     });
+    // $("#minutes").html(minutes + "<span>Minutes</span>");
+    // $("#seconds").html(seconds + "<span>Seconds</span>");
+    // document.getElementById('timer').innerHTML = clock.setTimer();
+    // clock.setTimer()
+    // console.log(clock.endTime);
+    // console.log(Date.parse(clock.timeleft));
   });
 })
