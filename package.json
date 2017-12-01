@@ -2,7 +2,7 @@
   "name": "beaker_challenge_js",
   "version": "1.0.0",
   "description": "Measure the correct amount of water into the larger of the two beakers in the time limit.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha --exit",
     "start": "node server.js"
