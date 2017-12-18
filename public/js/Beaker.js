@@ -1,6 +1,6 @@
 function Beaker(capacity) {
   this.currentVolume = 0;
-  this.capacity = capacity;
+  this.capacity = parseInt(capacity);
 }
 
 Beaker.prototype.fillBeaker = function(){
@@ -10,3 +10,5 @@ Beaker.prototype.fillBeaker = function(){
 Beaker.prototype.emptyBeaker = function(){
   this.currentVolume = 0;
 }
+
+// module.exports = Beaker;

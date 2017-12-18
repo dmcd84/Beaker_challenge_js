@@ -5,8 +5,8 @@ $(document).ready(function() {
     // let clock = new countdownClock();
 
     $.fn.updateBeakerVolume = function() {
-      $("#beaker1volume").text("Beaker 1 Current Volume:" + " " + puzzle.beaker1.currentVolume);
-      $("#beaker2volume").text("Beaker 2 Current Volume:" + " " + puzzle.beaker2.currentVolume);
+      $("#beaker-vol-1").text(puzzle.beaker1.currentVolume);
+      $("#beaker-vol-2").text(puzzle.beaker2.currentVolume);
       $.fn.winState();
     };
 
