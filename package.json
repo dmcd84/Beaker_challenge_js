@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/dmcd84/Beaker_challenge_js#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "express": "*"
   },
   "devDependencies": {
